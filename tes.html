@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tes</title>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="crossorigin="anonymous"></script>
+		<!-- jsPDF library -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.2.11/jspdf.plugin.autotable.min.js"></script>	
+		<script src="js/suma.js"></script>
+</head>
+<body>
+                    <form>
+                    	<p>Nama:</p><input type="text" id="namaSUMA" name="" placeholder="Isi Nama"><br><br>
+						<p>NPM:</p><input type="text" id="npmSUMA" name="" placeholder="Isi NPM"><br><br>
+						<p>Jurusan:</p><input type="text" id="jurusanSUMA" name="" placeholder="Isi Jurusan"><br><br>
+						<p>Perusahaan:</p><input type="text" id="perusahaanSUMA" name="" placeholder="Isi Nama Perusahaan"><br><br>
+						<p>Alamat:</p><input type="text" id="alamatSUMA" name="" placeholder="Isi Alamat Perusahaan"><br><br>
+						<p>Tujuan:</p><input type="text" id="tujuanSUMA" name="" placeholder="Isi Tujuan"><br><br>
+						<p>Konsentrasi:</p><input type="text" id="konsentrasiSUMA" name="" placeholder="Isi Konsentrasi"><br><br>
+						<p>Tanggal Surat dibuat:</p><input type="text" id="tanggalSuratSUMA" name="" placeholder="Isi Tanggal Surat dibuat"><br><br>
+						<p>Kota Surat dibuat:</p><input type="text" id="kotaSuratSUMA" name="" placeholder="Isi Kota Surat dibuat"><br><br>
+						<button class="btn btn-success" onclick="sumaPDF();">Buat surat</button>
+                    </form>
+</body>
+</html>
