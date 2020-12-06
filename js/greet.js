@@ -1,16 +1,15 @@
 var d = new Date();
 var time = d.getHours();
-var minutes = d.getMinutes();
 
-if (time < 12) {
+if (time>0&&time<=11) {
   document.write("selamat pagi");
 }
-if (time > 12 || minutes > 0) {
+if (time>12&&time<=14) {
   document.write("selamat siang");
 }
-if (time > 15) {
+if (time>15&&time<=17) {
   document.write("selamat sore");
 }
-if (time > 18) {
+if (time>18&&time<=23) {
   document.write("selamat malam");
 }
