@@ -5,6 +5,6 @@ function darkMode() {
    document.getElementById("dark").innerHTML = "Matikan Lampu";
    }
    if (x == false){
-   document.getElementById("dark").innerHTML = "Nayalakan Lampu";
+   document.getElementById("dark").innerHTML = "Nyalakan Lampu";
    }
 }
